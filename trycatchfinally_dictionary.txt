@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        try
+        {
+            Dictionary<string, double> movies = new Dictionary<string, double>();
+
+            movies.Add("Spy", 14.99);
+            movies.Add("Avengers: Age of Ultron ", 19.99);
+            movies.Add("Entourage", 9.99);
+            movies.Add("Pitch Perfect 2 ", 19.99);
+            movies.Add("Cinderella (2015)", 19.99);
+            movies.Add("Furious 7 (Extended Edition)", 9.99);
+            movies.Add("The Age of Adaline", 19.99);
+            movies.Add("Froning", 12.99);
+            movies.Add("Mad Max: Fury Road ", 9.99);
+            movies.Add("Aloha", 9.99);
+
+
+            //will show all of the options on the screen
+            foreach (KeyValuePair<string, double> option in movies)
+            {
+                Console.WriteLine(option);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("What movie is being taken out?");
+            string movie = Console.ReadLine();
+            var value = movies[movie];
+            movies.Remove(movie);
+
+            Console.ReadLine();
+           
+        }
+        catch (Exception ex)
+        { 
+            
+            Dictionary<string, double> movies = new Dictionary<string, double>();
+
+            movies.Add("Spy", 14.99);
+            movies.Add("Avengers: Age of Ultron ", 19.99);
+            movies.Add("Entourage", 9.99);
+            movies.Add("Pitch Perfect 2 ", 19.99);
+            movies.Add("Cinderella (2015)", 19.99);
+            movies.Add("Furious 7 (Extended Edition)", 9.99);
+            movies.Add("The Age of Adaline", 19.99);
+            movies.Add("Froning", 12.99);
+            movies.Add("Mad Max: Fury Road ", 9.99);
+            movies.Add("Aloha", 9.99);
+
+            foreach (KeyValuePair<string, double> option in movies)
+            {
+                Console.WriteLine(option);
+            }
+
+            Console.WriteLine(ex);
+            Console.WriteLine("Try Again");
+            string movie = Console.ReadLine();
+            var value = movies[movie];
+            movies.Remove(movie);
+            Console.ReadLine();
+
+        }
+
+    }
+
+}
+
