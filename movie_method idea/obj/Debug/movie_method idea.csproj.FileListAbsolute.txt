@@ -1,0 +1,6 @@
+c:\users\we can code it\documents\visual studio 2013\Projects\movie_method idea\bin\Debug\movie_method idea.exe.config
+c:\users\we can code it\documents\visual studio 2013\Projects\movie_method idea\bin\Debug\movie_method idea.exe
+c:\users\we can code it\documents\visual studio 2013\Projects\movie_method idea\bin\Debug\movie_method idea.pdb
+c:\users\we can code it\documents\visual studio 2013\Projects\movie_method idea\obj\Debug\movie_method idea.csprojResolveAssemblyReference.cache
+c:\users\we can code it\documents\visual studio 2013\Projects\movie_method idea\obj\Debug\movie_method idea.exe
+c:\users\we can code it\documents\visual studio 2013\Projects\movie_method idea\obj\Debug\movie_method idea.pdb
